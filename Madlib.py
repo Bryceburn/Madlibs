@@ -9,19 +9,33 @@ level = int(input(
 ))
 
 if level == 1:
-    noun_1 = input("Once upon a time in the great land of your noun ") 
+    noun_1 = input("Once upon a time in the great land of _____ ") 
+    adjective_1 = input("In this _____ kingdom,")
+    noun_2 = input("there was a great witch whos name was _____")
+    adjective_2 = input("She had a _____ smile")
+    adjective_3 = input("and ____ hair")
+    onomatopoeia_1 = input("One day she was brewing her potions she heard a _____")
+    noun_3 = input("She ran outside and saw one of her cats ____")
+    object_1 = input("'Curse you' she yeled to the sky and she ran to get her broom and _____")
+    monster_1 = input("She was heading towards the _____ civilization when suddenly she got knocked out of the sky")
+    onomatopoeia_2 = input("She fell towards the ground and heard her bones _____")
+    adjective_4 = input("She limped over behind a tree and felt her heart _____")
+    noun_4 = input("A snapping of _____ came from the bushes on her left")
+    adjective_5 = input("Her eyes dilated in fear and she started breathing harder as the _____ beast came out of the bushes")
+    adjective_6 = input("but it was just a ______")
+    animal_1 = input(f"but it was just a {adjective_6} _____")
     print(f'''Once upon a time in the great land of {noun_1}, 
     In this {adjective_1} kingdom there was a great witch whos name was {noun_2}. 
     She had a {adjective_2} smile and {adjective_3} hair. One day she was brewing her potions she heard a {onomatopoeia_1}.
-    she ran outside and saw one of her cats {noun_3}."curse you" she yelled to the sky and she ran to get her broom and {object_1}.
+    She ran outside and saw one of her cats {noun_3}."curse you" she yelled to the sky and she ran to get her broom and {object_1}.
     She was heading towards the {monster_1} civilization when suddenly she got knocked out of the sky.
     she fell towards the ground and heard her bones ({onomatopoeia_2}.
     She limped over behind a tree and felt her heart {adjective_4}.
     A snapping of {noun_4} came from the bushes on her left.
-    Her eyes dialated in fear and she started breathing harder as the {adjective_5} beast came out of the bushes.
+    Her eyes dilated in fear and she started breathing harder as the {adjective_5} beast came out of the bushes.
     But it was just a {adjective_6}{animal_1}. She took {animal_1} home and they lived happily ever after.''')
 elif level == 2:
-    print(f'''The {adjective_1} door opened with a loud creak. The first thing I see is a big {adjective 2} {noun1} ''')
+    print(f'''The {adjective_1} door opened with a loud creak. The first thing I see is a big {adjective_2} {noun1} ''')
 elif level == 3:
     print(f'''  ''')
 else:
