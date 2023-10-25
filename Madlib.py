@@ -35,7 +35,11 @@ if level == 1:
     Her eyes dilated in fear and she started breathing harder as the {adjective_5} beast came out of the bushes.
     But it was just a {adjective_6}{animal_1}. She took {animal_1} home and they lived happily ever after.''')
 elif level == 2:
-    print(f'''The {adjective_1} door opened with a loud creak. The first thing I see is a big {adjective_2} {noun1} ''')
+    print(f'''The {adjective_1} door opened with a loud creak. The first thing I see is a big {adjective_2} body.
+          The wall is covered in {noun_1}. A {sound_1} rang through the halls.
+           As I walk through the halls I get the feeling that {sentance_1}. I spin around and from the dark {object_1} appears.
+           I scream and run as fast as I can but it is catching up, I see and {room_1} on my left and dive into it.
+              ''')
 elif level == 3:
     print(f'''  ''')
 else:
