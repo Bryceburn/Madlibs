@@ -35,15 +35,34 @@ if level == 1:
     Her eyes dilated in fear and she started breathing harder as the {adjective_5} beast came out of the bushes.
     But it was just a {adjective_6}{animal_1}. She took {animal_1} home and they lived happily ever after.''')
 elif level == 2:
+    adjective_1 = input("The _____  door opened with a loud creak.")
+    adjective_2  = input("The first thing I see is a big _____  body.")
+    noun_1 = input(" The wall is covered in _____ .")
+    sound_1 = input(" A _____  rang through the halls.")
+    sentence_1 = input("As I walk through the halls I get the feeling that _____ .")
+    object_1 = input("I spin around and from the dark _____ appears.")
+    room_1 = input("I scream and run as fast as I can but it is catching up, I see and _____  on my left and dive into it.")
+    onomatopoeia_1 = input("The door makes a loud _____ .")
+    object_2 = input(" I crawl under the _____  to hide.")
+    adjective_3 = input("I _____  my heart beating in my chest.")
+    monster_1 = input(" as he comes around the corner I see two _____  feet come around the corner.")
+    verb_1 = input("He _____  around the room and he snarls.")
+    verb_2 = input(" He then starts to _____ the air.")
+    adjective_4 = input(" All of the sudden there is no _____  and the whole room is completly quite.")
+    adverb_1 = input(" Then his eyes go below the bed and he _____ me.")
     print(f'''The {adjective_1} door opened with a loud creak. The first thing I see is a big {adjective_2} body.
-          The wall is covered in {noun_1}. A {sound_1} rang through the halls.
-           As I walk through the halls I get the feeling that {sentance_1}. I spin around and from the dark {object_1} appears.
-           I scream and run as fast as I can but it is catching up, I see and {room_1} on my left and dive into it.
-              ''')
+        The wall is covered in {noun_1}. A {sound_1} rang through the halls.
+        As I walk through the halls I get the feeling that {sentence_1}. I spin around and from the dark {object_1} appears.
+        I scream and run as fast as I can but it is catching up, I see and {room_1} on my left and dive into it.
+        The door makes a loud {onomatopoeia_1}. I crawl under the {object_2} to hide.
+        I {adjective_3} my heart beating in my chest. as he comes around the corner I see two {monster_1} feet come around the corner.
+        He {verb_1} around the room and he snarls. He then starts to {verb_2} the air.
+        All of the sudden there is no {adjective_4} and the whole room is completly quite.
+        Then his eyes go below the bed and he {adverb_1} me. Then everything went dark. ''')
 elif level == 3:
     print(f'''  ''')
 else:
-    level = input;"please choose level through 5"
+    level = input;"please choose level through 1-3"
 
 
 
